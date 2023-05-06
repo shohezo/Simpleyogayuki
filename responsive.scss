@@ -1,0 +1,370 @@
+@media screen and(min-width:1180px) {
+  /* ヘルパークラス */
+  .hp_pc-br {
+    display: none;
+  }
+}
+@media screen and(max-width:1180px) {
+  /* ヘルパークラス */
+  .hp_pc-br {
+    display: none;
+  }
+
+  .ly_header {
+    .el_btn {
+      display: none;
+    }
+  }
+  .bl_headerNav {
+    display: none;
+  }
+  .bl_drawerBtn {
+    display: block;
+  }
+}
+
+/*--------------------------------
+タブレット
+--------------------------------*/
+@media screen and(max-width:959px) {
+  .ly_fv {
+    width: 100%;
+    padding-top: 0px;
+    .bl_fv_copy_main01,
+    .bl_fv_copy_main02,
+    .bl_fv_copy_main03 {
+      color: white;
+      text-shadow: 1px 2px 2px rgba(0,0,0,0.3);
+    }
+    > img {
+      height: 100vh;
+      width: 100%;
+    }
+    .el_fv_img-pc {
+      display: none;
+    }
+    .el_fv_img-tb {
+      display: block !important;
+    }
+    .el_fv_img-sp {
+      display: none !important;
+    }
+    .bl_fv_copy {
+      &_main {
+        background-color: unset;
+      }
+      top: 20%;
+      left: 25%;
+      transform: translateX(-50%);
+      // &_main {
+      //   margin-top: 10px;
+      //   margin-bottom: 10px;
+      // }
+    }
+  }
+  /* フッター */
+  .ly_footer {
+    .ly_inner {
+      .bl_footer_side {
+        margin-right: 0px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+@media screen and(max-width:768px) {
+  .bl_section_header {
+    text-align: center;
+  }
+  .bl_section_header_sub {
+    text-align: center;
+  }
+  .el_btn {
+    padding: 8px 15px;
+  }
+  .bl_section_txt {
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+  #cake-page{
+    #adviser{
+      .el_icon_wrapper{
+        padding-left: 4vw;
+      }
+    }
+  }
+  #tategaki {
+    .bl_intro-sp {
+      p {
+        margin-right: 0px;
+      }
+      .p-1 {
+        position: absolute;
+        top: 0%;
+        right: 8%;
+      }
+      .p-2 {
+        position: absolute;
+        top: 7%;
+        right: 39%;
+      }
+      .p-3 {
+        position: absolute;
+        top: 20%;
+        left: 12%;
+      }
+      .p-4 {
+        position: absolute;
+        bottom: 28%;
+        right: 12%;
+      }
+      .p-5 {
+        position: absolute;
+        bottom: 8%;
+        left: 41%;
+      }
+      .p-6 {
+        position: absolute;
+        bottom: -4%;
+        left: 9%;
+        text-align: right;
+      }
+    }
+  }
+  #bwg_container1_0 #bwg_container2_0 .tablenav-pages_0 {
+    a {
+      width: 290px;
+      padding: 10px 15px !important;
+    }
+  }
+  /* イントロページ */
+  #intro-page {
+    &.ly_section {
+      padding-left: 0vw;
+      padding-right: 0vw;
+    }
+  }
+
+  .tb {
+    display: block !important;
+  }
+  .pc {
+    display: none !important;
+  }
+  .hp_br-tb {
+    display: block;
+  }
+  .hp_br-pc {
+    display: none;
+  }
+  .hp_pc {
+    display: none;
+  }
+  .hp_sp {
+    display: block !important;
+  }
+  .hp_column_tb {
+    flex-direction: column !important;
+  }
+  .hp_column_tb-reverse {
+    flex-direction: column-reverse !important;
+  }
+  /* ヘルパークラス */
+
+  .hp_mtLg {
+    margin-top: 80px;
+  }
+  .hp_mbLg {
+    margin-bottom: 80px;
+  }
+  .hp_mtMd {
+    margin-top: 50px;
+  }
+  .hp_mbMd {
+    margin-bottom: 50px;
+  }
+  .hp_mtSm {
+    margin-top: 20px;
+  }
+  .hp_mbSm {
+    margin-bottom: 20px;
+  }
+
+  .hp_ptLg {
+    padding-top: 80px;
+  }
+  .hp_pbLg {
+    padding-bottom: 80px;
+  }
+  .hp_ptMd {
+    padding-top: 50px;
+  }
+  .hp_pbMd {
+    padding-bottom: 50px;
+  }
+  .hp_ptSm {
+    padding-top: 20px;
+  }
+  .hp_pbSm {
+    padding-bottom: 20px;
+  }
+}
+@media screen and(max-width:768px) {
+  .bl_cardUnit.bl_cardUnit__col2 {
+    margin-bottom: -20px;
+  }
+  .bl_cardUnit > .bl_card {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+}
+/*--------------------------------
+スマホ
+--------------------------------*/
+@media screen and(min-width:519px) {
+  a[href^="tel:"] {
+    pointer-events: none;
+  }
+}
+@media screen and(max-width:519px) {
+  body {
+    font-size: 1.4rem;
+  }
+  /* フロントページ */
+  .ly_fv {
+    .el_fv_img-pc {
+      display: none;
+    }
+    .el_fv_img-tb {
+      display: none !important;
+    }
+    .el_fv_img-sp {
+      display: block !important;
+    }
+  }
+  /* コンポーネント */
+  .bl_drawer {
+    width: 300px;
+  }
+  .bl_drawerBtn {
+    left: -280px;
+  }
+  .el_btn {
+    margin: 0 auto;
+    border-radius: 50px;
+  }
+  .bl_section_header {
+    font-size: 2.5rem;
+  }
+  /* ヘッダー */
+  .ly_header {
+    .el_logo {
+      top: 20px;
+      left: 20px;
+      z-index: 99;
+    }
+  }
+  /* ファーストビュー */
+  .ly_fv {
+    .el_fv_img {
+      background-position: 50% 30%;
+    }
+    &::before {
+      top: 83%;
+      font-size: 6px;
+    }
+    .bl_fv_copy {
+      top: 18%;
+      left: 39%;
+      transform: translateX(-50%);
+      &_main {
+        font-size: 2.5rem;
+        margin-top: 10px;
+        margin-bottom: 5px;
+      }
+      &_txt {
+        padding-left: 30px;
+      }
+    }
+    .bl_fv_campaign {
+      right: 10px;
+    }
+  }
+  /* イントロページ */
+  #intro-page {
+    .bl_section_body {
+      padding-left: 0vw;
+    }
+  }
+  /* フッター */
+  .ly_footer {
+    .ly_inner {
+      align-items: unset;
+      flex-direction: column-reverse !important;
+    }
+    .ly_footer_main {
+      flex-direction: column;
+      align-items: left;
+      margin-bottom: 30px;
+    }
+    .el_icon_wrapper {
+      flex-direction: row;
+      margin-left: 2%;
+    }
+  }
+  .bl_footer_nav {
+    border-left: none;
+  }
+
+  /* ヘルパークラス */
+  .hp_br-sp {
+    display: block;
+  }
+
+  .hp_column_sp {
+    flex-direction: column !important;
+  }
+  .hp_column_sp-reverse {
+    flex-direction: column-reverse !important;
+  }
+
+  .hp_mtLg {
+    margin-top: 60px;
+  }
+  .hp_mbLg {
+    margin-bottom: 60px;
+  }
+  .hp_mtMd {
+    margin-top: 40px;
+  }
+  .hp_mbMd {
+    margin-bottom: 40px;
+  }
+  .hp_mtSm {
+    margin-top: 15px;
+  }
+  .hp_mbSm {
+    margin-bottom: 15px;
+  }
+
+  .hp_ptLg {
+    padding-top: 60px;
+  }
+  .hp_pbLg {
+    padding-bottom: 60px;
+  }
+  .hp_ptMd {
+    padding-top: 40px;
+  }
+  .hp_pbMd {
+    padding-bottom: 40px;
+  }
+  .hp_ptSm {
+    padding-top: 15px;
+  }
+  .hp_pbSm {
+    padding-bottom: 15px;
+  }
+}

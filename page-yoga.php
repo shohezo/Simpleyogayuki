@@ -35,7 +35,7 @@ Template Name: ヨガページ
             <div class="bl_section">
                 <div class="menu">
                     <dl>
-                        <dt class="strong">グループレッスン（120min）</dt>
+                        <dt class="strong">グループレッスン（60min）</dt>
                     </dl>
                     <dl class="indent">
                         <dt> - ドロップイン</dt>

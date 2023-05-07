@@ -827,6 +827,11 @@ body.noscroll {
     }
     .bl_section_body {
       flex: 1;
+      .box {
+        background-color: #ffffff;
+        padding: 4px 12px;
+        border-radius: 4px;
+      }
     }
     .bl_section_txt {
       margin-bottom: 20px;

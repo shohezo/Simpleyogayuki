@@ -335,7 +335,7 @@ Template Name: ケーキページ
             </div>
         </div>
     </section>
-    <section class="ly_section hp_ptLg hp_pbLg hp_bgColor" id="adviser">
+    <!-- <section class="ly_section hp_ptLg hp_pbLg hp_bgColor" id="adviser">
         <div class="ly_inner">
             <span class="el_section_ttl_sub">アドバイザー紹介</span>
             <h2 class="el_section_ttl">Adviser</h2>
@@ -396,6 +396,6 @@ Template Name: ケーキページ
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 </article>
 <?php get_footer(); ?>

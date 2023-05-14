@@ -129,8 +129,13 @@
     </div>
     <?php }else if(is_page('reserve_cake')){?>
     <div class="ly_heading">
-        <p>シフォンケーキのご予約</p>
+        <p>シフォンケーキのご予約(対面)</p>
         <h2>RESERVE<span>-CAKE-</span></h2>
+    </div>
+    <?php }else if(is_page('reserve_online')){?>
+    <div class="ly_heading">
+        <p>シフォンケーキのご予約(オンライン)</p>
+        <h2>RESERVE<span>-CAKE online-</span></h2>
     </div>
     <?php }else if(is_page('booking-form')){?>
     <div class="ly_heading">

@@ -4,7 +4,7 @@
         <h2 class="el_section_ttl">Contact</h2>
         <div class="bl_section">
             <p class="bl_section_txt hp_mbSm hp_mtSm">
-                お問合せはInstagramのメッセージにて承っております。<br>
+                お問合せ、お仕事のご依頼は<br class="hp_br-sp">Instagramのメッセージにて承っております。<br>
             </p>
             <a href="https://www.instagram.com/simpleyoga_yuki/" target="_blank" rel="noopener noreferrer"
                 class="container hp_bgColor">

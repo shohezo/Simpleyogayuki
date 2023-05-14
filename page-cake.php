@@ -193,7 +193,13 @@ Template Name: ケーキページ
                 "url"
                 ); ?>/reserve_cake" class="el_btn hp_centering">
                 <div class="arrow"></div>
-                <p>ご予約はこちら</p>
+                <p>対面レッスンのご予約はこちら</p>
+            </a>
+            <a href="<?php bloginfo(
+                "url"
+                ); ?>/reserve_online" class="el_btn hp_centering">
+                <div class="arrow"></div>
+                <p>オンラインレッスンのご予約はこちら</p>
             </a>
         </div>
     </section>

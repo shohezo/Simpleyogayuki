@@ -191,7 +191,7 @@ Template Name: ケーキページ
             </div>
             <a href="<?php bloginfo(
                 "url"
-                ); ?>/reserve_cake" class="el_btn hp_centering">
+                ); ?>/reserve_cake" class="el_btn hp_centering hp_mbSm">
                 <div class="arrow"></div>
                 <p>対面レッスンのご予約はこちら</p>
             </a>

@@ -221,7 +221,7 @@ Template Name: フロントページ
             </a>
             <a href="<?php bloginfo(
                     "url"
-                    ); ?>/reserve_cake" class="el_btn hp_centering hp_mb30">
+                    ); ?>/reserve_online" class="el_btn hp_centering hp_mb30">
                 <div class="arrow"></div>
                 <p>魔法の米粉シフォンケーキ®︎<br class="hp_br-sp">のオンラインレッスンのご予約はこちら</p>
             </a>

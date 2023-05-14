@@ -70,6 +70,7 @@
                     <li><a href="<?php bloginfo('url');?>/Cake/#training"> - training</a></li>
                     <li><a href="<?php bloginfo('url');?>/Cake/#adviser"> - adviser</a></li>
                     <li><a href="<?php bloginfo('url');?>/reserve_cake"> - reserve</a></li>
+                    <li><a href="<?php bloginfo('url');?>/reserve_online"> - online</a></li>
                 </ul>
                 <li><a href="<?php bloginfo('url');?>/yoga">YOGA</a></li>
                 <ul>

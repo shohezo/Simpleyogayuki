@@ -52,7 +52,7 @@ Template Name: ヨガページ
                     </div>
                     <span class="isolation hp_mtSm hp_mbSm"></span>
                     <dl>
-                        <dt class="strong">プライベートレッスン（60min）</dt>
+                        <dt class="strong">パーソナルレッスン（60min）</dt>
                         <dd>¥5,000</dd>
                     </dl>
                     <span class="isolation hp_mtSm hp_mbSm"></span>

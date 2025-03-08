@@ -129,21 +129,38 @@ Template Name: ケーキページ
             <h2 class="el_section_ttl">Menu</h2>
             <div class="bl_section">
                 <div class="menu">
-                    <h3 class="title">Private Lesson</h3>
+                    <h3 class="title">対面 Lesson</h3>
                     <span class="border hp_mt10 hp_mb10"></span>
-                    <dl>
+                    <!-- <dl>
                         <dt class="strong">
                             対面（150min） </dt>
-                    </dl>
+                    </dl> -->
                     <dl class="indent">
-                        <dt> - 魔法の米粉シフォンケーキ®︎</dt>
-                        <dd>¥7,500</dd>
+                        <dt> - 魔法の米粉シフォンケーキ®︎（︎プレーン）</dt>
+                        <dd>¥8,800（税込）</dd>
                     </dl>
                     <div class="notes">
                         <p>・1レッスン2名まで</p>
-                        <p>・再受講の場合は￥6,000円</p>
+                        <p>・レシピ</p>
+                        <p>・ホール1台お持ち帰りいただきます</p>
+                        <p>・お試食</p>
+                        <p>・再受講の場合は￥6,600円（税込）</p>
                     </div>
-                    <span class="isolation hp_mtSm hp_mbSm"></span>
+                    <dl class="indent">
+                        <dt> - 魔法の米粉シフォンケーキ®︎（︎フレーバー）</dt>
+                        <dd>¥8,800（税込）</dd>
+                    </dl>
+                    <div class="notes">
+                        <p>・抹茶、チョコレート、アールグレイ、黒糖のいずれか</p>
+                        <p>（※プレーン受講済みの方のレッスンになります）</p>
+                        <p>・1レッスン2名まで</p>
+                        <p>・レシピ</p>
+                        <p>・シフォンサンドとホール1台お持ち帰りいただきます</p>
+                        <p>（フレーバーレッスンのみシフォンサンドを一緒に作ります）</p>
+                        <p>・シフォンサンドのお試食</p>
+                        <p>・再受講の場合は￥6,600円（税込）</p>
+                    </div>
+                    <!-- <span class="isolation hp_mtSm hp_mbSm"></span>
                     <dl>
                         <dt class="strong">
                             オンライン（120min） </dt>
@@ -153,27 +170,35 @@ Template Name: ケーキページ
                         <dd>¥7,000</dd>
                     </dl>
                     <div class="notes">
-                        <p>・1レッスン2名まで</p>
+                        <p>・1レッスン3名まで</p>
                         <p>・再受講の場合は￥6,000円</p>
-                    </div>
+                    </div> -->
                     <span class="isolation hp_mtSm hp_mbSm"></span>
-                    <h3 class="title">Online Group Lesson</h3>
+                    <h3 class="title">Online Lesson</h3>
                     <span class="border hp_mt10 hp_mb10"></span>
                     <!-- <div class="notes hp_tar">
                         <p>※全てPDFレシピ付き</p>
                     </div> -->
-                    <dl>
+                    <!-- <dl>
                         <dt class="strong">
                             オンライングループ（60min） </dt>
-                    </dl>
+                    </dl> -->
                     <dl class="indent">
-                        <dt> - 魔法の米粉シフォンケーキ®︎</dt>
-                        <dd>¥4,000</dd>
+                        <dt> - 魔法の米粉シフォンケーキ®︎（︎プレーン）</dt>
+                        <dd>¥7,700（税込）</dd>
                     </dl>
                     <div class="notes">
-                        <p>・チョコレート、アールグレイ、抹茶、黒糖のいずれか</p>
-                        <p>・PDFレシピ付き</p>
-                        <p>・再受講の場合は￥1,000円</p>
+                        <p>・ZOOMを使用したオンラインレッスンになります</p>
+                        <p>・レシピ</p>
+                    </div>
+                    <dl class="indent">
+                        <dt> - 魔法の米粉シフォンケーキ®︎（︎フレーバー）</dt>
+                        <dd>¥6,500（税込）</dd>
+                    </dl>
+                    <div class="notes">
+                        <p>・ZOOMを使用したオンラインレッスンになります</p>
+                        <p>・抹茶、チョコレート、アールグレイ、黒糖、黒ごまマーブルのいずれか</p>
+                        <p>・レシピ</p>
                     </div>
                 </div>
             </div>

@@ -1,1 +1,1 @@
-# Simpleyogayuki
+# seitai-ama

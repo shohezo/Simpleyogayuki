@@ -140,13 +140,11 @@ Template Name: ケーキページ
                         <dd>¥8,800（税込）</dd>
                     </dl>
                     <div class="notes">
-                        <p>・1レッスン2名まで</p>
                         <p>・レシピ</p>
-                        <p>・ホール1台お持ち帰りいただきます</p>
                         <p>・お試食</p>
-                        <p>・再受講の場合は￥6,600円（税込）</p>
+                        <p>・ホール1台お持ち帰りいただきます</p>
                     </div>
-                    <dl class="indent">
+                    <!-- <dl class="indent">
                         <dt> - 魔法の米粉シフォンケーキ®︎（︎フレーバー）</dt>
                         <dd>¥8,800（税込）</dd>
                     </dl>
@@ -159,7 +157,7 @@ Template Name: ケーキページ
                         <p>（フレーバーレッスンのみシフォンサンドを一緒に作ります）</p>
                         <p>・シフォンサンドのお試食</p>
                         <p>・再受講の場合は￥6,600円（税込）</p>
-                    </div>
+                    </div> -->
                     <!-- <span class="isolation hp_mtSm hp_mbSm"></span>
                     <dl>
                         <dt class="strong">
@@ -204,31 +202,85 @@ Template Name: ケーキページ
             </div>
         </div>
     </section>
-    <section class="ly_section hp_ptLg hp_pbLg" id="reserve_cake">
+    <section class="ly_section hp_ptLg hp_pbLg" id="course">
         <div class="ly_inner">
-            <span class="el_section_ttl_sub">ご予約はこちら</span>
-            <h2 class="el_section_ttl">Reserve</h2>
+            <span class="el_section_ttl_sub">各種コース</span>
+            <h2 class="el_section_ttl">Course</h2>
             <div class="bl_section hp_flex hp_jcc">
                 <p class="bl_section_txt hp_mbSm hp_mtSm">
-                    各種レッスンは完全予約制となっておりす。<br>
-                    ご予約ページから事前にお申し込みください。
+                    各種コースを設けております。
                 </p>
             </div>
-            <a href="<?php bloginfo(
-                "url"
-                ); ?>/reserve_cake" class="el_btn hp_centering hp_mbSm">
-                <div class="arrow"></div>
-                <p>対面レッスンのご予約はこちら</p>
-            </a>
-            <a href="<?php bloginfo(
-                "url"
-                ); ?>/reserve_online" class="el_btn hp_centering">
-                <div class="arrow"></div>
-                <p>オンラインレッスンのご予約はこちら</p>
-            </a>
+            <div class="courses">
+                <a href="<?php bloginfo('url');?>/trial" class="course-card">
+                    <div class="card-header">
+                        <div class="icon"> <img src="<?php bloginfo('template_url');?>/img/icon trial.svg"
+                                alt="詳細を見るのアイコン" />
+                        </div>
+                        <h2 class="card-title">お試しコース</h2>
+                    </div>
+                    <div class="card-image">
+                        <img src="<?php bloginfo('template_url');?>/img/course-trial.png" alt="お試しコースの様子" />
+                    </div>
+                    <div class="card-content">
+                        <p class="card-description">魔法の米粉シフォンケーキ®︎を手軽に楽しみたい方向けの最初のレッスン</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="details-button">
+                            <div class="icon"> <img src="<?php bloginfo('template_url');?>/img/icon arrow.svg"
+                                    alt="詳細を見るのアイコン" /></div>
+                            <span>詳細を見る</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="<?php bloginfo('url');?>/homemaster" class="course-card">
+                    <div class="card-header">
+                        <div class="icon"> <img src="<?php bloginfo('template_url');?>/img/icon homemaster.svg"
+                                alt="おうちマスターのアイコン" />
+                        </div>
+                        <h2 class="card-title">おうちマスターコース</h2>
+                    </div>
+                    <div class="card-image">
+                        <img src="<?php bloginfo('template_url');?>/img/course-homemaster.png" alt="おうちマスターコースの様子" />
+                    </div>
+                    <div class="card-content">
+                        <p class="card-description">魔法の米粉シフォンケーキ®︎を極めて、さらにおうちで楽しみたい方向けのレッスン</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="details-button">
+                            <div class="icon"> <img src="<?php bloginfo('template_url');?>/img/icon arrow.svg"
+                                    alt="詳細を見るのアイコン" /></div>
+                            <span>詳細を見る</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="<?php bloginfo('url');?>/advisor" class="course-card">
+                    <div class="card-header">
+                        <div class="icon"> <img src="<?php bloginfo('template_url');?>/img/icon advisor.svg"
+                                alt="養成講座のアイコン" />
+                        </div>
+                        <h2 class="card-title">養成講座</h2>
+                    </div>
+                    <div class="card-image">
+                        <img src="<?php bloginfo('template_url');?>/img/course-advisor.png" alt="養成講座の様子" />
+                    </div>
+                    <div class="card-content">
+                        <p class="card-description">魔法の米粉シフォンケーキ®︎の講師になり、お仕事として習得したい方向け</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="details-button">
+                            <div class="icon"> <img src="<?php bloginfo('template_url');?>/img/icon arrow.svg"
+                                    alt="お試しコースのアイコン" /></div>
+                            <span>詳細を見る</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
     </section>
-    <section class="ly_section hp_ptLg hp_pbSm" id="training">
+    <!-- <section class="ly_section hp_ptLg hp_pbSm" id="training">
         <div class="ly_inner">
             <span class="el_section_ttl_sub">アドバイザー養成講座</span>
             <h2 class="el_section_ttl">Training</h2>
@@ -297,8 +349,8 @@ Template Name: ケーキページ
                 </div>
             </div>
         </div>
-    </section>
-    <section class="ly_section hp_ptSm hp_pbLg" id="price">
+    </section> -->
+    <!-- <section class="ly_section hp_ptSm hp_pbLg" id="price">
         <div class="ly_inner">
             <div class="bl_section">
                 <div class="menu hp_bgColor">
@@ -365,7 +417,7 @@ Template Name: ケーキページ
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- <section class="ly_section hp_ptLg hp_pbLg hp_bgColor" id="adviser">
         <div class="ly_inner">
             <span class="el_section_ttl_sub">アドバイザー紹介</span>

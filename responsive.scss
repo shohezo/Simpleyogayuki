@@ -1,10 +1,10 @@
-@media screen and(min-width:1180px) {
+@media screen and (min-width: 1180px) {
   /* ヘルパークラス */
   .hp_pc-br {
     display: none;
   }
 }
-@media screen and(max-width:1180px) {
+@media screen and (max-width: 1180px) {
   /* ヘルパークラス */
   .hp_pc-br {
     display: none;
@@ -26,7 +26,7 @@
 /*--------------------------------
 タブレット
 --------------------------------*/
-@media screen and(max-width:959px) {
+@media screen and (max-width: 959px) {
   .ly_fv {
     width: 100%;
     padding-top: 0px;
@@ -34,7 +34,7 @@
     .bl_fv_copy_main02,
     .bl_fv_copy_main03 {
       color: white;
-      text-shadow: 1px 2px 2px rgba(0,0,0,0.3);
+      text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
     }
     > img {
       height: 100vh;
@@ -73,7 +73,7 @@
   }
 }
 
-@media screen and(max-width:768px) {
+@media screen and (max-width: 768px) {
   .bl_section_header {
     text-align: center;
   }
@@ -87,9 +87,9 @@
     padding-left: 4vw;
     padding-right: 4vw;
   }
-  #cake-page{
-    #adviser{
-      .el_icon_wrapper{
+  #cake-page {
+    #adviser {
+      .el_icon_wrapper {
         padding-left: 4vw;
       }
     }
@@ -143,6 +143,43 @@
     &.ly_section {
       padding-left: 0vw;
       padding-right: 0vw;
+    }
+  }
+  /* 各コースページ */
+  #training-page,
+  #trial-page,
+  #homeMaster-page {
+    overflow-x: unset; /* 横スクロールを防ぐを解除 */
+
+    #intro {
+      .bl_section_imgWrapper {
+        max-width: 90%;
+        position: unset;
+        margin-top: -130px;
+      }
+    }
+    #concept {
+      .bl_section_imgWrapper > img {
+        width: 290px;
+        height: 290px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+    }
+    #instructor {
+      .bl_section {
+        flex-direction: column-reverse !important;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        &_txt {
+          padding-left: unset;
+          padding-right: unset;
+        }
+      }
+      .profile {
+        margin-left: 4vw;
+        margin-right: 4vw;
+      }
     }
   }
 
@@ -210,7 +247,7 @@
     padding-bottom: 20px;
   }
 }
-@media screen and(max-width:768px) {
+@media screen and (max-width: 768px) {
   .bl_cardUnit.bl_cardUnit__col2 {
     margin-bottom: -20px;
   }
@@ -223,12 +260,12 @@
 /*--------------------------------
 スマホ
 --------------------------------*/
-@media screen and(min-width:519px) {
+@media screen and (min-width: 519px) {
   a[href^="tel:"] {
     pointer-events: none;
   }
 }
-@media screen and(max-width:519px) {
+@media screen and (max-width: 519px) {
   body {
     font-size: 1.4rem;
   }

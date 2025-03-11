@@ -332,6 +332,12 @@ body {
 .hp_bgColor {
   background-color: #f7f6f2;
 }
+.hp_bgColor_grey {
+  background-color: #f9f9fa;
+}
+.hp_black {
+  color: #333 !important;
+}
 .hp_relative {
   position: relative;
 }
@@ -352,10 +358,10 @@ body {
 .hp_listStyleNone {
   list-style: none !important;
 }
-.tb{
+.tb {
   display: none;
 }
-.font{
+.font {
   font-family: "游明朝", "Yu Mincho";
   display: inline;
 }

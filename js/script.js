@@ -87,3 +87,36 @@ $(document).ready(function () {
     once: true,
   });
 });
+
+// オーバーレイの開閉処理
+document.addEventListener("DOMContentLoaded", function () {
+  const chartButton = document.querySelector(".chart-button");
+  const overlay = document.querySelector(".overlay");
+  const closeButton = document.querySelector(".close-button");
+
+  // オーバーレイを開く
+  chartButton.addEventListener("click", function () {
+    overlay.classList.add("active");
+    document.body.style.overflow = "hidden"; // スクロール防止
+  });
+
+  // オーバーレイを閉じる
+  function closeOverlay() {
+    overlay.classList.remove("active");
+    document.body.style.overflow = ""; // スクロール再開
+  }
+
+  closeButton.addEventListener("click", closeOverlay);
+  overlay.addEventListener("click", function (e) {
+    if (e.target === overlay) {
+      closeOverlay();
+    }
+  });
+
+  // ESCキーでも閉じられるように
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && overlay.classList.contains("active")) {
+      closeOverlay();
+    }
+  });
+});

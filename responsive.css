@@ -5,7 +5,6 @@
     display: none;
   }
 }
-
 @media screen and (max-width: 1180px) {
   /* ヘルパークラス */
   .hp_pc-br {
@@ -21,7 +20,6 @@
     display: block;
   }
 }
-
 /*--------------------------------
 タブレット
 --------------------------------*/
@@ -52,8 +50,7 @@
   .ly_fv .bl_fv_copy {
     top: 20%;
     left: 25%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
   }
   .ly_fv .bl_fv_copy_main {
     background-color: unset;
@@ -64,7 +61,6 @@
     margin-bottom: 30px;
   }
 }
-
 @media screen and (max-width: 768px) {
   .bl_section_header {
     text-align: center;
@@ -125,6 +121,47 @@
     padding-left: 0vw;
     padding-right: 0vw;
   }
+  /* 各コースページ */
+  #training-page,
+  #trial-page,
+  #homeMaster-page {
+    overflow-x: unset; /* 横スクロールを防ぐを解除 */
+  }
+  #training-page #intro .bl_section_imgWrapper,
+  #trial-page #intro .bl_section_imgWrapper,
+  #homeMaster-page #intro .bl_section_imgWrapper {
+    max-width: 90%;
+    position: unset;
+    margin-top: -130px;
+  }
+  #training-page #concept .bl_section_imgWrapper > img,
+  #trial-page #concept .bl_section_imgWrapper > img,
+  #homeMaster-page #concept .bl_section_imgWrapper > img {
+    width: 290px;
+    height: 290px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 8px;
+  }
+  #training-page #instructor .bl_section,
+  #trial-page #instructor .bl_section,
+  #homeMaster-page #instructor .bl_section {
+    flex-direction: column-reverse !important;
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+  #training-page #instructor .bl_section_txt,
+  #trial-page #instructor .bl_section_txt,
+  #homeMaster-page #instructor .bl_section_txt {
+    padding-left: unset;
+    padding-right: unset;
+  }
+  #training-page #instructor .profile,
+  #trial-page #instructor .profile,
+  #homeMaster-page #instructor .profile {
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
   .tb {
     display: block !important;
   }
@@ -144,16 +181,10 @@
     display: block !important;
   }
   .hp_column_tb {
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-direction: column !important;
-            flex-direction: column !important;
+    flex-direction: column !important;
   }
   .hp_column_tb-reverse {
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: reverse !important;
-        -ms-flex-direction: column-reverse !important;
-            flex-direction: column-reverse !important;
+    flex-direction: column-reverse !important;
   }
   /* ヘルパークラス */
   .hp_mtLg {
@@ -193,7 +224,6 @@
     padding-bottom: 20px;
   }
 }
-
 @media screen and (max-width: 768px) {
   .bl_cardUnit.bl_cardUnit__col2 {
     margin-bottom: -20px;
@@ -204,7 +234,6 @@
     margin-right: 0;
   }
 }
-
 /*--------------------------------
 スマホ
 --------------------------------*/
@@ -213,7 +242,6 @@
     pointer-events: none;
   }
 }
-
 @media screen and (max-width: 519px) {
   body {
     font-size: 1.4rem;
@@ -259,8 +287,7 @@
   .ly_fv .bl_fv_copy {
     top: 18%;
     left: 39%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
   }
   .ly_fv .bl_fv_copy_main {
     font-size: 2.5rem;
@@ -279,29 +306,16 @@
   }
   /* フッター */
   .ly_footer .ly_inner {
-    -webkit-box-align: unset;
-        -ms-flex-align: unset;
-            align-items: unset;
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: reverse !important;
-        -ms-flex-direction: column-reverse !important;
-            flex-direction: column-reverse !important;
+    align-items: unset;
+    flex-direction: column-reverse !important;
   }
   .ly_footer .ly_footer_main {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
+    flex-direction: column;
+    align-items: left;
     margin-bottom: 30px;
   }
   .ly_footer .el_icon_wrapper {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     margin-left: 2%;
   }
   .bl_footer_nav {
@@ -312,16 +326,10 @@
     display: block;
   }
   .hp_column_sp {
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-direction: column !important;
-            flex-direction: column !important;
+    flex-direction: column !important;
   }
   .hp_column_sp-reverse {
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: reverse !important;
-        -ms-flex-direction: column-reverse !important;
-            flex-direction: column-reverse !important;
+    flex-direction: column-reverse !important;
   }
   .hp_mtLg {
     margin-top: 60px;
@@ -359,5 +367,4 @@
   .hp_pbSm {
     padding-bottom: 15px;
   }
-}
-/*# sourceMappingURL=responsive.css.map */
+}/*# sourceMappingURL=responsive.css.map */

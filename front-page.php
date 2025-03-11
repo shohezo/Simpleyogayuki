@@ -202,7 +202,7 @@ Template Name: フロントページ
         </a> -->
     </div>
 </section>
-<section class="ly_section hp_ptLg hp_pbLg" id="reserve">
+<!-- <section class="ly_section hp_ptLg hp_pbLg" id="reserve">
     <div class="ly_inner">
         <span class="el_section_ttl_sub">ご予約はこちら</span>
         <h2 class="el_section_ttl">Reserve</h2>
@@ -233,6 +233,6 @@ Template Name: フロントページ
             </a>
         </div>
     </div>
-</section>
+</section> -->
 
 <?php get_footer(); ?>

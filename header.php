@@ -78,10 +78,13 @@
             <ul>
                 <li><a href="<?php bloginfo('url');?>/Cake/#concept"> - concept</a></li>
                 <li><a href="<?php bloginfo('url');?>/Cake/#menu-cake"> - menu</a></li>
-                <li><a href="<?php bloginfo('url');?>/Cake/#training"> - training</a></li>
+                <li><a href="<?php bloginfo('url');?>/trial"> - お試しコース</a></li>
+                <li><a href="<?php bloginfo('url');?>/homemaster"> - おうちマスターコース</a></li>
+                <li><a href="<?php bloginfo('url');?>/advisor"> - 養成講座</a></li>
+                <!-- <li><a href="<?php bloginfo('url');?>/Cake/#training"> - training</a></li>
                 <li><a href="<?php bloginfo('url');?>/Cake/#adviser"> - adviser</a></li>
                 <li><a href="<?php bloginfo('url');?>/reserve_cake"> - reserve</a></li>
-                <li><a href="<?php bloginfo('url');?>/reserve_online"> - online</a></li>
+                <li><a href="<?php bloginfo('url');?>/reserve_online"> - online</a></li> -->
             </ul>
         </li>
         <li class=" bl_drawer_item"><a href="<?php bloginfo('url');?>/yoga">YOGA</a>
@@ -119,43 +122,73 @@
     <?php if(is_page('intro')){?>
     <div class="ly_heading">
         <p>はじめに</p>
-        <h2>INTRO</h2>
+        <h2 class="Ttl">INTRO</h2>
     </div>
     <?php }else if(is_page('reserve_yoga')){?>
     <div class="ly_heading">
         <p>ヨガのご予約</p>
-        <h2>RESERVE
+        <h2 class="Ttl">RESERVE
             <span>-YOGA-</span>
         </h2>
     </div>
     <?php }else if(is_page('reserve_cake')){?>
     <div class="ly_heading">
         <p>シフォンケーキのご予約(対面)</p>
-        <h2>RESERVE<span>-CAKE-</span></h2>
+        <h2 class="Ttl">RESERVE<span>-CAKE-</span></h2>
     </div>
     <?php }else if(is_page('reserve_online')){?>
     <div class="ly_heading">
         <p>シフォンケーキのご予約(オンライン)</p>
-        <h2>RESERVE<span>-CAKE online-</span></h2>
+        <h2 class="Ttl">RESERVE<span>-CAKE online-</span></h2>
     </div>
     <?php }else if(is_page('booking-form')){?>
     <div class="ly_heading">
         <p>ご予約入力フォーム</p>
-        <h2>RESERVATION</h2>
+        <h2 class="Ttl">RESERVATION</h2>
     </div>
     <?php }else if(is_page('booking-thanks')){?>
     <div class="ly_heading">
-        <h2>THANK YOU!</h2>
+        <h2 class="Ttl">THANK YOU!</h2>
     </div>
     <?php }else if(is_page('cake')){?>
     <div class="ly_heading">
         <p>魔法の米粉シフォンケーキ</p>
-        <h2>CAKE</h2>
+        <h2 class="Ttl">CAKE</h2>
+    </div>
+    <?php }else if(is_page('trial')){?>
+    <div class="ly_heading hp_black">
+        <p class="hp_black">魔法の米粉シフォンケーキ</p>
+        <div class="courseTtl hp_flex hp_aic hp_black">
+            <img src="<?php bloginfo(
+                        "template_url"
+                    ); ?>/img/icon trial.svg" alt="お試しコースアイコン" />
+            <h2>お試しコース</h2>
+        </div>
+    </div>
+    <?php }else if(is_page('homemaster')){?>
+    <div class="ly_heading hp_black">
+        <p class="hp_black">魔法の米粉シフォンケーキ</p>
+        <div class="courseTtl hp_flex hp_aic hp_black">
+            <img src="<?php bloginfo(
+                        "template_url"
+                    ); ?>/img/icon homemaster.svg" alt="おうちマスターコースアイコン" />
+            <h2>お家マスターコース</h2>
+        </div>
+    </div>
+    <?php }else if(is_page('advisor')){?>
+    <div class="ly_heading hp_black">
+        <p class="hp_black">魔法の米粉シフォンケーキ</p>
+        <div class="courseTtl hp_flex hp_aic hp_black">
+            <img src="<?php bloginfo(
+                        "template_url"
+                    ); ?>/img/icon advisor.svg" alt="養成講座アイコン" />
+            <h2>養成講座</h2>
+        </div>
     </div>
     <?php }else if(is_page('yoga')){?>
-    <div class="ly_heading">
+    <div class=" ly_heading">
         <p>ヨガ</p>
-        <h2>YOGA</h2>
+        <h2 class="Ttl">YOGA</h2>
     </div>
     <?php }else{}?>
 
